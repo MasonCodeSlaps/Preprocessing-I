@@ -1,1 +1,271 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: darkblue;
+  text-align: center;
+}
+html nav,
+body nav {
+  height: 25%;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1% 1%;
+  display: flex;
+}
+html nav a,
+body nav a {
+  height: 15%;
+  width: 25%;
+  padding: 0.5% 0.5%;
+  margin: 0.5% 0.5%;
+  justify-content: space-around;
+  background-color: blueviolet;
+  border: solid black 1px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+html nav a:hover,
+body nav a:hover {
+  background-color: black;
+  color: white;
+  border: dashed black 1px;
+}
+html .dia-name,
+body .dia-name {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 3.5em;
+}
+html .dia-name .name,
+body .dia-name .name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+html .container,
+body .container {
+  height: 90%;
+  width: 100%;
+  background-color: darkblue;
+}
+html .container .intro,
+body .container .intro {
+  font-size: 1.2em;
+  border: solid black 1px;
+  padding: 1% 1%;
+  margin: 1% 1%;
+}
+html .container .intro h2,
+body .container .intro h2 {
+  font-size: 1.5em;
+  color: white;
+}
+html .container .intro:hover,
+body .container .intro:hover {
+  background-color: teal;
+}
+html .container .skills,
+body .container .skills {
+  font-size: 1.2em;
+  border: solid black 1px;
+  padding: 1% 1%;
+  margin: 1% 1%;
+}
+html .container .skills h2,
+body .container .skills h2 {
+  font-size: 1.5em;
+  color: white;
+}
+html .container .skills:hover,
+body .container .skills:hover {
+  background-color: teal;
+}
+html .container .work,
+body .container .work {
+  font-size: 1.2em;
+  border: solid black 1px;
+  padding: 1% 1%;
+  margin: 1% 1%;
+}
+html .container .work h2,
+body .container .work h2 {
+  font-size: 1.5em;
+  color: white;
+}
+html .container .work:hover,
+body .container .work:hover {
+  background-color: teal;
+}
+html .container .contact,
+body .container .contact {
+  font-size: 1.2em;
+  border: solid black 1px;
+  padding: 1% 1%;
+  margin: 1% 1%;
+}
+html .container .contact h2,
+body .container .contact h2 {
+  font-size: 1.5em;
+  color: white;
+}
+html .container .contact a,
+body .container .contact a {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  padding: 0.5% 0.5%;
+  margin: 0.5% 0.5%;
+  text-decoration: none;
+  border: solid black 1px;
+}
+html .container .contact a:hover,
+body .container .contact a:hover {
+  background-color: white;
+  color: black;
+  border: solid white 1px;
+}
+html .container .contact:hover,
+body .container .contact:hover {
+  background-color: teal;
+}
+html footer,
+body footer {
+  padding: 2% 2%;
+  margin: 2% 2%;
+  font-size: 1em;
+}
