@@ -195,6 +195,10 @@ body .container .intro h2 {
   font-size: 1.5em;
   color: white;
 }
+html .container .intro:hover,
+body .container .intro:hover {
+  background-color: teal;
+}
 html .container .skills,
 body .container .skills {
   font-size: 1.2em;
@@ -207,6 +211,10 @@ body .container .skills h2 {
   font-size: 1.5em;
   color: white;
 }
+html .container .skills:hover,
+body .container .skills:hover {
+  background-color: teal;
+}
 html .container .work,
 body .container .work {
   font-size: 1.2em;
@@ -218,6 +226,10 @@ html .container .work h2,
 body .container .work h2 {
   font-size: 1.5em;
   color: white;
+}
+html .container .work:hover,
+body .container .work:hover {
+  background-color: teal;
 }
 html .container .contact,
 body .container .contact {
@@ -246,4 +258,14 @@ body .container .contact a:hover {
   background-color: white;
   color: black;
   border: solid white 1px;
+}
+html .container .contact:hover,
+body .container .contact:hover {
+  background-color: teal;
+}
+html footer,
+body footer {
+  padding: 2% 2%;
+  margin: 2% 2%;
+  font-size: 1em;
 }
